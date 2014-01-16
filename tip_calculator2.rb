@@ -2,10 +2,10 @@ print "Meal cost: "
 meal = Float(gets.chomp)
 
 print "Tax percent (non-decimal): "
-tax = Integer(gets.chomp)
+tax = Float(gets.chomp)
 
 print "Tip percent (non-decimal): "
-tip = Integer(gets.chomp)
+tip = Float(gets.chomp)
 
 tax_value = meal * tax / 100
 meal_with_tax = meal + tax_value
